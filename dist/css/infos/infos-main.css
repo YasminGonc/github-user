@@ -1,12 +1,44 @@
 .infos__main-bio {
     color: var(--darkTxtPrincipal);
-    line-height: 1.2rem;
     font-weight: 0.8rem;
+    line-height: 1.2rem;
 }
 
 .infos__main-numbers {
+    background-color: var(--darkBackground);
+    border-radius: 5px;
+    color: var(--darkTxt);
+    margin: 1rem 0;
+    padding: 0.8rem;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    text-align: center;
+    justify-content: center;  
+}
+
+.numbers__titulo {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.infos__main-extra {
+    line-height: 1.5rem;
+}
+
+.extra__titulo {
+    color: var(--darkTxt);
+    text-decoration: none;
+}
+
+.icone {
+    margin-right: 1rem;
+}
+
+.fa-solid.fa-link {
+    margin-right: 0.7rem;
+}
+
+.fa-solid.fa-building {
+    margin-right: 1.2rem;
 }

@@ -2,7 +2,23 @@
     background-color: var(--darkContainer);
     margin: 1rem 0;
     border-radius: 5px;
-    width: 280px;
+    width: 350px;
     padding: 1.5rem;
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .infos {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .infos {
+        width: 800px;
+    }
+
+    .infos__main {
+        margin: 0 2rem 0 30%;
+    }
 }

@@ -7,6 +7,7 @@
     --darkBackground: #141C2F;
     --darkContainer: #202A46;
     --darkBtn: #0777F4;
+    --darkBtnHover: #61A8FA;
     --darkTxt: #AFB5C3;
     --darkTxtPrincipal: #BBC2CB;
 }
@@ -17,6 +18,7 @@ body {
 }
 
 .main {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
