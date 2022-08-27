@@ -1,0 +1,12 @@
+.infos__main-bio {
+    color: var(--darkTxtPrincipal);
+    line-height: 1.2rem;
+    font-weight: 0.8rem;
+}
+
+.infos__main-numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}

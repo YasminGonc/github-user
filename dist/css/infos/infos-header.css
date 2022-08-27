@@ -1,0 +1,32 @@
+.infos__header {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.infos__header-img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.infos__header-login {
+    justify-self: center;
+}
+
+.login__titulo {
+    color: var(--darkTxtPrincipal);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.login__user {
+    color: var(--darkBtn);
+    margin: 0.6rem 0 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.login__join {
+    color: var(--darkTxt);
+    font-size: 0.8rem;
+}

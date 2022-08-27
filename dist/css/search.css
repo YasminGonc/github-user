@@ -1,0 +1,28 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--darkContainer);
+    border-radius: 5px;
+    width: 280px;
+    box-sizing: border-box;
+}
+.fa-solid.fa-magnifying-glass {
+    color: var(--darkBtn);
+}
+.search__input {
+    background-color: transparent;
+    border: none;
+    color: var(--darkTxtPrincipal);
+    font-family: 'Roboto', sans-serif;
+}
+
+.search__btn {
+    background-color: var(--darkBtn);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 0.2rem;
+}
