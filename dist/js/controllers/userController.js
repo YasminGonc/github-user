@@ -8,10 +8,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { User } from "../models/user.js";
+import { ErrorView } from "../views/errorView.js";
 import { UserView } from "../views/userView.js";
 export class UserController {
     constructor() {
         this.userView = new UserView('.infos');
+        this.errorView = new ErrorView('.infos');
         this.inputUser = document.querySelector('.search__input');
     }
     searchUser() {
@@ -19,8 +21,13 @@ export class UserController {
             const user = this.inputUser.value;
             let userConsult = yield fetch(`https://api.github.com/users/${user}`);
             let userConsultConvert = yield userConsult.json();
-            const userData = new User(userConsultConvert.avatar_url, userConsultConvert.name, userConsultConvert.login, userConsultConvert.bio, userConsultConvert.public_repos, userConsultConvert.followers, userConsultConvert.following, userConsultConvert.location, userConsultConvert.html_url, userConsultConvert.twitter_username, userConsultConvert.company);
-            this.userView.update(userData);
+            if (userConsultConvert.message) {
+                this.errorView.update();
+            }
+            else {
+                const userData = new User(userConsultConvert.avatar_url, userConsultConvert.name, userConsultConvert.login, userConsultConvert.bio, userConsultConvert.public_repos, userConsultConvert.followers, userConsultConvert.following, userConsultConvert.location, userConsultConvert.html_url, userConsultConvert.twitter_username, userConsultConvert.company);
+                this.userView.update(userData);
+            }
         });
     }
 }

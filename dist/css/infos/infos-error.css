@@ -1,0 +1,10 @@
+.infos__error {
+    color: var(--darkTxt);
+    text-align: center;
+}
+.fa-solid.fa-triangle-exclamation {
+    color: var(--darkTxt);
+    display: inherit;
+    margin-bottom: 1rem;
+    text-align: center;
+}

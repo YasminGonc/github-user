@@ -9,5 +9,6 @@ export interface GitHubApiConsult {
     location: string,
     html_url: string,
     twitter_username: string,
-    company: string
+    company: string,
+    message: string
 }

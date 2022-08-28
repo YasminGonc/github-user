@@ -7,7 +7,7 @@ export class UserView {
         this.element = document.querySelector(seletor);
     }
     
-    template(model: User): string {
+    private template(model: User): string {
         return `
             <div class="infos__header">
                 <img src="${model.avatar_url}" alt="Foto perfil do usuário no GitHub" class="infos__header-img">
@@ -36,7 +36,7 @@ export class UserView {
         `
     }
 
-    update(model: any) {
+    public update(model: any) {
         let template = this.template(model);
         this.element.style.backgroundColor = '#202A46';
         this.element.innerHTML = template;

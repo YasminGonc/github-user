@@ -2,6 +2,7 @@
 @import url(infos/infos.css);
 @import url(infos/infos-header.css);
 @import url(infos/infos-main.css);
+@import url(infos/infos-error.css);
 
 :root {
     --darkBackground: #141C2F;

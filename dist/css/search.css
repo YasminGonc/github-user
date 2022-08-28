@@ -27,6 +27,7 @@
     border: none;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
     padding: 0.2rem;
 }
 
