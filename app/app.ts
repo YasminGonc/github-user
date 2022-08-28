@@ -5,8 +5,6 @@ const controllerHome = new UserController();
 
 search.addEventListener('click', () => {
     controllerHome.searchUser();
-    console.log(controllerHome);
-    console.log(controllerHome.searchUser());
 })
 
 
