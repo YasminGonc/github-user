@@ -11,5 +11,5 @@ export class User {
         public readonly link_url: string,
         public readonly twitter_url: string,
         public readonly company: string
-    ) { }
+    ) {}
 }

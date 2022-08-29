@@ -2,7 +2,9 @@
     color: var(--darkTxt);
     text-align: center;
 }
-.fa-solid.fa-triangle-exclamation {
+
+.fa-solid.fa-triangle-exclamation,
+.fa-solid.fa-spinner {
     color: var(--darkTxt);
     display: inherit;
     margin-bottom: 1rem;
