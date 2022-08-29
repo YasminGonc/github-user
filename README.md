@@ -13,7 +13,7 @@
  <li>Pesquisar informações dos usuários cadastrados no GitHub.</li>
  </ul>
  <h3>Site</h3>
- <a href="#" target="_blank"></a>
+ <a href="https://yasmingonc.github.io/github-user/dist/index.html" target="_blank">GitHub Search App</a>
  <h3>Vídeo da aplicação</h3>
  
  <h2> Processo </h2>
