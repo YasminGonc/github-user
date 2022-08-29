@@ -3,7 +3,6 @@
  <img src="https://img.shields.io/badge/-HTML-orange" target="_blank">
  <img src="https://img.shields.io/badge/-CSS-blue" target="_blank">
  <img src="https://img.shields.io/badge/-TypeScript-blue" target="_blank">
- <img src="https://img.shields.io/badge/-Em%20desenvolvimento-success" target="_blank">
  </div>
  O GitHub User Search App é a aplicação perfeita para quem quer procurar rapidamente informações do GitHub daquele seu amigo. Com a aplicação é possível visualizar as principais informações que estão contidadas no perfil do GitHub, como foto de perfil, descrição da bio, número de repositórios e seguidores e localização. O layout da aplicação foi inspirada em um dos desafios do <a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6" target="_blank">Frontend Mentors</a>.
  
