@@ -16,11 +16,6 @@
  <h3>Vídeo da aplicação</h3>
  
  <h2> Processo </h2>
- <h3>Itens a serem implementados:</h3>
- <ul>
- <li>Limpar campo depois da busca;</li>
- <li>Validar input antes de submeter.</li>
- </ul>
  <h3>Construído com:</h3>
  <ul>
  <li>Tags HTML semânticas;</li>
