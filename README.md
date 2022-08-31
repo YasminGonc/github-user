@@ -14,6 +14,7 @@
  <h3>Site</h3>
  <a href="https://yasmingonc.github.io/github-user/dist/index.html" target="_blank">GitHub Search App</a>
  <h3>Vídeo da aplicação</h3>
+ https://loom.com/share/6e443b5c583b41ac9c307d72e6d7493c
  
  <h2> Processo </h2>
  <h3>Construído com:</h3>
